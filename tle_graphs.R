@@ -28,7 +28,7 @@ tle_world_map <- function(){
   dev.off()
 }
 
-states_tle_map <- function(){
+tle_states_map <- function(){
   
   #read in tle data
   data_tle <- read_csv("tle.csv")
