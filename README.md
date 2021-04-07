@@ -26,6 +26,7 @@ If you have a Apple computer or a computer running on Linux, you’ll need you o
 
 ## Cloning the github repository
 First move in where you want the repository to be stored on your local device. Used commands pwd to "print your working directory" and cd to "change your current directory". Type "ls" to see what folders you can move into. If you want to move to your Documents folder, simply type "cd Documents" in your command line. If you ever want to go back one directory, type "cd .." in the command line. Now that you are located in your desired directory, do the following: Copy the github repository from github. Then in your terminal type "git clone" then your copied repsoitory url on the same command line. 
+
 ![alt text](https://i.stack.imgur.com/lQFbj.gif)
 ![alt text](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588bba64_ud123-l2-git-clone/ud123-l2-git-clone.gif)
 
