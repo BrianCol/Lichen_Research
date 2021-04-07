@@ -25,9 +25,12 @@ If you have a Apple computer or a computer running on Linux, you’ll need you o
 
 
 ## Cloning the github repository
-First move in where you want the repository to be stored on your local device. Used commands pwd to "print your working directory" and cd to "change pyour current directory". If you want to copy the repository in your documents folder, simply type "cd Documents" in your command line. If you ever want to go back one directory, type "cd .." in the command line. Now that you are located in your desired directory, do the following: Copy the github repository from github. Then in your terminal type "git clone" then your copied repsoitory url on the same command line. 
+First move in where you want the repository to be stored on your local device. Used commands pwd to "print your working directory" and cd to "change your current directory". Type "ls" to see what folders you can move into. If you want to move to your Documents folder, simply type "cd Documents" in your command line. If you ever want to go back one directory, type "cd .." in the command line. Now that you are located in your desired directory, do the following: Copy the github repository from github. Then in your terminal type "git clone" then your copied repsoitory url on the same command line. 
 ![alt text](https://i.stack.imgur.com/lQFbj.gif)
 ![alt text](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588bba64_ud123-l2-git-clone/ud123-l2-git-clone.gif)
 
 ## What's next?
-Now that you have all the files from the github repository, you can use the R scripts to produce your graphs from the data. Simply open up Rstudio or R, then open the file that you want. Run the code in the file. Type your desired function (remember its the name_of_the_data followed by world_map or states_map) in the console. Once you have ran the function, the graph will be saved to your folder. 
+Now that you have all the files from the github repository, you can use the R scripts to produce your graphs from the data. Simply open up Rstudio or R, then open the file that you want. Run the code in the file. You may need to install one or two packages. Just type install.packges("name of the package in quotes") in the R console. Type your desired function (remember its the name_of_the_data followed by world_map or states_map) in the console. Once you have ran the function, the graph will be saved to your folder. 
+
+### For those more expierenced with code
+You probably know the basics of github and commands. You are free to modify my R code in a different branch. I have left comments on each R script to help you understand what the code does. It should be straight forward how to change a graph to produce the EU destiny instead of the US. Remember to look up any functions and packages you are not fimilar with. 
