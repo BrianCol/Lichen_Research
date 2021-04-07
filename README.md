@@ -1,5 +1,8 @@
 # Lichen_Research
-Before you start using this repository, please read the following. 
+Before you start using this repository, please read the following.
+
+### Note
+The images dispalyed as part of this README.md file are not one to one. They are a basic overview of what you should be doing. The names of the urls and computers names displayed in the terminal will not be the same. 
 
 ## The files
 There are 3 files ‘csv’ files that contain all the data. They are genbank.csv, tle.csv, and working.csv. As denoted by their names, each file corresponds to either the genbank data, tle data or the working data. There are also 3 R scripts intended to produce graphs of either the world destiny or the United States destiny for each ‘csv’ file. The R scripts are genbank_graphs.R, tle_graphs.R, working_graphs.R. Each R script has two functions that will produce a jpg saved to wherever dictionary—also known as a file—you have cloned the github repository into. The functions in the R scripts are gen_world_map and gen_states_map for the genbank.csv, tle_world_map and tle_states_map for the tle.csv, and working_world_map and working_states_map for the working.csv. You can click on the “view code” button the see the raw R code. 
