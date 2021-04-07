@@ -19,7 +19,7 @@ If you have a Apple computer or a computer running on Linux, you’ll need you o
 ![alt text](https://www.howtogeek.com/wp-content/uploads/2013/03/launch-terminal-on-ubuntu.png?trim=1,1&bg-color=000&pad=1,1)
 ![alt text](https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/optimized/2X/b/ba76cbf3dc8dc2cc94d26dd61c7aad3cedcd5102_2_690x300.png)
 
-## Gitbash for Windows
+### Gitbash for Windows
 ![alt text](https://www.stanleyulili.com/assets/images/posts/2019-08-13-install-git-bash/download-starting.jpg)
 ![alt text](https://www.stanleyulili.com/assets/images/posts/2019-08-13-install-git-bash/git-bash.jpg)
 
