@@ -3,7 +3,7 @@ library(DataExplorer)
 library(sf)
 
 data_tle <- read_csv("tle.csv")
-colnames(data) <- c("Input", 'Voucher Number',	"Herbarium",	"DNA Number",	"family",	"Genus",	"Species",	"DNA DATA",	"Sequence",	"Country",	"region")
+colnames(data_tle) <- c("Input", 'Voucher Number',	"Herbarium",	"DNA Number",	"family",	"Genus",	"Species",	"DNA DATA",	"Sequence",	"Country",	"region")
 
 data_gen <- read_csv("genbank.csv")
 
@@ -21,7 +21,7 @@ ggplot() +
            aes(fill=n, map_id=Country))
 
 
-us_states <- data %>% filter(Country == "USA") %>% count(region)
+us_states <- data_tle %>% filter(Country == "USA") %>% count(region)
 us_states$region <- us_states$region %>% tolower()
 
 USData <- map_data("state")
