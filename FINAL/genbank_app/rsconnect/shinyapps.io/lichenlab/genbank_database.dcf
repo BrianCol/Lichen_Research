@@ -1,0 +1,14 @@
+name: genbank_database
+title: genbank_database
+username:
+account: lichenlab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4251919
+bundleId: 4699910
+url: https://lichenlab.shinyapps.io/genbank_database/
+when: 1623307517.23319
+lastSyncTime: 1623307517.23319
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: tle.rds|tle_database.csv|tle_database.rds|working_database.rds

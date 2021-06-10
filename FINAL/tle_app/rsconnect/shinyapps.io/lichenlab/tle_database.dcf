@@ -1,0 +1,13 @@
+name: tle_database
+title: tle_database
+username:
+account: lichenlab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4251798
+bundleId: 4699718
+url: https://lichenlab.shinyapps.io/tle_database/
+when: 1623305396.72947
+lastSyncTime: 1623305396.72947
+asMultiple: FALSE
+asStatic: FALSE
